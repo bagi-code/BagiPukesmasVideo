@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <TextView
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/list_laporjudul"
+        android:text="Nama Pukesmas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_below="@id/list_laporjudul"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/list_dr"
+        android:text="Nama Dr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:src="@drawable/ic_email"
+        android:layout_alignParentRight="true"
+        android:id="@+id/email"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+</RelativeLayout>
